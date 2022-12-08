@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+body{
+    background: url("./pexels-pixabay-269583.jpg");
+    background-size: cover;
+}
+.logo{
+    width: 100vw;
+    height: 5vw;
+}
+.logo h1{
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.song1{
+    margin-left: 25%;
+    width: 50vw;
+    height: 100vh;
+    background: #3a3643;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #3a3643;
+    overflow: scroll;
+}
+.song2{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50vw;
+    height: 100vh;
+    background: #3a3643;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #3a3643;
+    overflow: scroll;
+}
+
+.christ{
+    color: whitesmoke;
+    text-align: center;
+}
+audio{
+    margin-top: 10px;
+    position: relative;
+    left: 25%;
+}
+
+@media screen and (max-width: 800px) {
+    audio{
+        left: 0%;
+    }
+    .song1{
+        margin-left: 10%;
+        width: 80vw;
+    }
+    .song2{
+        margin-left: 10%;
+        width: 80vw;
+    }
+    .logo h1{
+        font-size: 2rem;
+    }
+    .logo{
+        margin-bottom: 12px;
+    }
+}
